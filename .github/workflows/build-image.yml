@@ -23,5 +23,5 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
       - name: Build Docker image
-        run: ./mvnw spring-boot:build-image -DskipTests
+        run: ./mvnw spring-boot:build-image -DskipTests 
     
